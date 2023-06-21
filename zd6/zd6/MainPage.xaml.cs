@@ -22,20 +22,28 @@ namespace zd6
         {
             if (swich1.IsToggled == true)
             {
-                OnOff1.Text = "ON";
+                OnOff1.Text = "I";
+                OnOff1.Margin = new Thickness(0, 8, 10, 0);
             }
             else
-                OnOff1.Text = "OFF";
+            {
+                OnOff1.Text = "O";
+                OnOff1.Margin = new Thickness(0, 8, 4, 0);
+            }
         }
 
         private void swich2_Toggled(object sender, ToggledEventArgs e)
         {
             if (swich2.IsToggled == true)
             {
-                OnOff2.Text = "ON";
+                OnOff2.Text = "I";
+                OnOff2.Margin = new Thickness(0, 8, 3, 0);
             }
             else
-                OnOff2.Text = "OFF";
+            {
+                OnOff2.Text = "O";
+                OnOff2.Margin = new Thickness(0, 8, 0, 0);
+            }
         }
 
         private void Switch_Toggled_1(object sender, ToggledEventArgs e)

@@ -4,5 +4,6 @@
     <SelectedDevice>realme RMX3085</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <ActiveDebugProfile>realme RMX3085 %28Android 12.0 — API 31%29</ActiveDebugProfile>
+    <DefaultDevice>pixel_5_-_api_31</DefaultDevice>
   </PropertyGroup>
 </Project>

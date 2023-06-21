@@ -51,6 +51,12 @@
 #label {
     color: white;
 }
+#checkbox {
+    color: red;
+}
+#radiobuttom {
+    
+}
 
 .LabelTextColor {
     color: black;

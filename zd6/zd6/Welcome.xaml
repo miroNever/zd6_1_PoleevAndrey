@@ -14,7 +14,7 @@
         <Button x:Name="singInButton" StyleId="button"  Text = "Войти" HorizontalOptions="CenterAndExpand" WidthRequest="300" Margin="0,0,0,40" Clicked="singInButton_Clicked"/>
 
         <StackLayout Orientation="Horizontal">
-            <CheckBox Margin="10,0,0,0"/>
+            <CheckBox StyleId="checkbox" Margin="10,0,0,0"/>
             <Label StyleId="label" Text="Запомнить меня" FontSize="Small" HorizontalOptions="Start" Margin="0,3,0,0"/>
             <Label StyleId="label" Text="Я забыл!" FontSize="Small" HorizontalOptions="End" Margin="110,3,0,0"/>
         </StackLayout>

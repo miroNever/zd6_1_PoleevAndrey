@@ -44,8 +44,6 @@
 
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal">
-                
                 <StackLayout Orientation="Vertical">
 
                     <StackLayout Orientation="Horizontal">
@@ -56,40 +54,37 @@
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal">
-                        
-                        <Switch x:Name="swich1" IsToggled="True" Toggled="Switch_Toggled" OnColor="Red" ThumbColor="White" Margin="15,5,0,0"/>
-                        <Label x:Name="OnOff1" StyleId="label" Text="ON" Margin="0,8,-7,0"/>
-                        <Switch x:Name="swich2" IsToggled="False" Toggled="swich2_Toggled" OnColor="Red" ThumbColor="White"  Margin="10,5,0,0"/>
-                        <Label x:Name="OnOff2" StyleId="label" Text="OFF" Margin="0,8,5,0"/>
+
+                            <Switch x:Name="swich1" IsToggled="True" Toggled="Switch_Toggled" OnColor="Red" ThumbColor="White" Margin="15,5,0,0"/>
+                            <Label x:Name="OnOff1" StyleId="label" Text="I" Margin="0,8,10,0"/>
+                            <Switch x:Name="swich2" IsToggled="False" Toggled="swich2_Toggled" OnColor="Red" ThumbColor="White"  Margin="15,5,0,0"/>
+                            <Label x:Name="OnOff2" StyleId="label" Text="O" Margin="0,8,5,0"/>
                 
                     </StackLayout>
-                    
 
                     <StackLayout Orientation="Horizontal">
                             
                         <Switch x:Name="swich3" IsToggled="True" Toggled="Switch_Toggled_1" OnColor="Red" ThumbColor="White"  Margin="15,5,0,0"/>
-                        <Label x:Name="OnOff3" StyleId="label" Text="✓" Margin="0,8,5,0"/>
+                        <Label x:Name="OnOff3" StyleId="label" Text="✓" Margin="0,8,3,0"/>
                         <Switch x:Name="swich4" IsToggled="False" Toggled="swich4_Toggled" OnColor="Red" ThumbColor="White" Margin="15,5,0,0"/>
                         <Label x:Name="OnOff4" StyleId="label" Text="✕" Margin="0,8,5,0"/>
                         
                     </StackLayout>
 
 
-
                 </StackLayout>
 
-                <StackLayout Orientation="Vertical">
-                    
-                    <RadioButton IsChecked="True" Margin="20,25,0,0"/>
-                    <RadioButton IsChecked="False" Margin="20,0,0,0"/>
-                    <CheckBox IsChecked="True" Margin="20,0,0,0"/>
-                    <CheckBox IsChecked="False" Margin="20,0,0,0"/>
+                <StackLayout Orientation="Vertical" Margin="200,-135,0,0">
+
+                <RadioButton StyleId="radiobuttom" IsChecked="True" Margin="20,25,0,0"/>
+                <RadioButton StyleId="radiobuttom"  IsChecked="False" Margin="20,0,0,0"/>
+                    <CheckBox StyleId="checkbox" IsChecked="True" Margin="20,0,0,0"/>
+                    <CheckBox StyleId="checkbox" IsChecked="False" Margin="20,0,0,0"/>
 
                 </StackLayout>
                 
             </StackLayout>
 
-        </StackLayout>
         
     </ContentPage>
         
@@ -104,7 +99,7 @@
             <Button x:Name="singInButton" StyleId="button"  Text = "Войти" HorizontalOptions="CenterAndExpand" WidthRequest="300" Margin="0,0,0,40"/>
 
             <StackLayout Orientation="Horizontal">
-                <CheckBox Margin="10,0,0,0"/>
+                <CheckBox  StyleId="checkbox" Margin="10,0,0,0"/>
                 <Label StyleId="label" Text="Запомнить меня" FontSize="Medium" HorizontalOptions="Start" Margin="0,3,0,0"/>
                 <Label StyleId="label" Text="Я забыл!" FontSize="Medium" HorizontalOptions="End" Margin="110,3,0,0"/>
             </StackLayout>
