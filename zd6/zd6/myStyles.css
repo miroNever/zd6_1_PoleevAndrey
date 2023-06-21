@@ -1,0 +1,57 @@
+﻿^contentpage {
+    background-color: #b9b9b9;
+}
+
+#header {
+    font-size: 40;
+    color: white;
+}
+
+#entry {
+    background-color: white;
+    border-radius: initial 100;
+    color: black;
+}
+
+
+#button {
+    margin-top: 30;
+    background-color: red;
+}
+
+#button1 {
+    border-radius: 100;
+    background: #00e0ff;
+    color: white;
+    width: 90;
+    
+}
+
+#button2 {
+    border-radius: 100;
+    color: gray;
+    width: 90;
+}
+
+#button3 {
+    border-radius: 100;
+    color: gray;
+    border-color: white;
+    border-width: 1;
+    width: 90;
+}
+
+#else {
+    font-size: 14;
+    background-color: wheat;
+    color: black;
+    
+}
+
+#label {
+    color: white;
+}
+
+.LabelTextColor {
+    color: black;
+}

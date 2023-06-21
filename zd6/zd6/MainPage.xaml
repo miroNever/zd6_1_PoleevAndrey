@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd6.MainPage">
+
+    <CarouselPage.Resources>
+        <StyleSheet Source="myStyles.css"/>
+    </CarouselPage.Resources>
+    
+    <ContentPage x:Name="First">
+        
+        <StackLayout Orientation="Vertical">
+
+            <StackLayout Orientation="Horizontal">
+
+                <Button StyleId="button1" Text="Static" HorizontalOptions="Start" Margin="30,20,0,0" Clicked="Button_Clicked"></Button>
+                <Button StyleId="button2" Text="Static" HorizontalOptions="Start" Margin="15,20,0,0"></Button>
+                <Button StyleId="button3" Text="Static" HorizontalOptions="Start" Margin="15,20,0,0"></Button>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Button StyleId="button1" Text="Hover" HorizontalOptions="Start" Margin="30,20,0,0"></Button>
+                <Button StyleId="button2" Text="Hover" HorizontalOptions="Start" Margin="15,20,0,0"></Button>
+                <Button StyleId="button3" Text="Hover" HorizontalOptions="Start" Margin="15,20,0,0"></Button>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Button StyleId="button1" Text="Pressed" HorizontalOptions="Start" Margin="30,20,0,0"></Button>
+                <Button StyleId="button2" Text="Pressed" HorizontalOptions="Start" Margin="15,20,0,0"></Button>
+                <Button StyleId="button3" Text="Pressed" HorizontalOptions="Start" Margin="15,20,0,0"></Button>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" WidthRequest="100">
+
+                <Slider x:Name="slider1" Minimum="0" Maximum="100" MinimumTrackColor="White" MaximumTrackColor="Black" ThumbColor="Red" WidthRequest="10" Margin="10,50,175,0"/>
+                <Slider x:Name="slider2" Minimum="0" Maximum="100" MinimumTrackColor="White" MaximumTrackColor="Black" ThumbColor="#00ffffff" WidthRequest="10" Margin="10,10,175,0"/>
+                <Slider x:Name="slider3" Minimum="0" Maximum="100" MinimumTrackColor="White" MaximumTrackColor="Black" ThumbColor="Red" WidthRequest="10" Margin="10,10,175,0"/>
+                <Slider x:Name="slider4" Minimum="0" Maximum="100" MinimumTrackColor="White" MaximumTrackColor="Black" ThumbColor="#00ffffff" WidthRequest="10" Margin="10,10,175,0"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal">
+                    
+                        <Switch IsToggled="True" OnColor="Red" ThumbColor="White" Margin="15,30,0,0"/>
+                        <Switch IsToggled="False" OnColor="Red" ThumbColor="White" Margin="35,30,0,0"/>
+                    
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        
+                        <Switch x:Name="swich1" IsToggled="True" Toggled="Switch_Toggled" OnColor="Red" ThumbColor="White" Margin="15,5,0,0"/>
+                        <Label x:Name="OnOff1" StyleId="label" Text="ON" Margin="0,8,-7,0"/>
+                        <Switch x:Name="swich2" IsToggled="False" Toggled="swich2_Toggled" OnColor="Red" ThumbColor="White"  Margin="10,5,0,0"/>
+                        <Label x:Name="OnOff2" StyleId="label" Text="OFF" Margin="0,8,5,0"/>
+                
+                    </StackLayout>
+                    
+
+                    <StackLayout Orientation="Horizontal">
+                            
+                        <Switch x:Name="swich3" IsToggled="True" Toggled="Switch_Toggled_1" OnColor="Red" ThumbColor="White"  Margin="15,5,0,0"/>
+                        <Label x:Name="OnOff3" StyleId="label" Text="✓" Margin="0,8,5,0"/>
+                        <Switch x:Name="swich4" IsToggled="False" Toggled="swich4_Toggled" OnColor="Red" ThumbColor="White" Margin="15,5,0,0"/>
+                        <Label x:Name="OnOff4" StyleId="label" Text="✕" Margin="0,8,5,0"/>
+                        
+                    </StackLayout>
+
+
+
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical">
+                    
+                    <RadioButton IsChecked="True" Margin="20,25,0,0"/>
+                    <RadioButton IsChecked="False" Margin="20,0,0,0"/>
+                    <CheckBox IsChecked="True" Margin="20,0,0,0"/>
+                    <CheckBox IsChecked="False" Margin="20,0,0,0"/>
+
+                </StackLayout>
+                
+            </StackLayout>
+
+        </StackLayout>
+        
+    </ContentPage>
+        
+    <ContentPage x:Name="Second">
+
+        <StackLayout Orientation="Vertical">
+
+            <Label StyleId = "header" Text ="Welcome" FontSize = "Large" HorizontalOptions ="Center" Margin="0,50,0,40"/>
+            <Label x:Name="login" StyleId="label" Text="Ваш логин: " IsVisible="false" HorizontalOptions = "StartAndExpand" Margin="60,0,150,10"/>
+            <Label x:Name="password" StyleId="label" Text="Ваш пароль:" IsVisible="false" HorizontalOptions = "StartAndExpand" Margin="60,0,150,20"/>
+            <Label x:Name="MaxVlue" StyleId="label" TextColor="White" HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="singInButton" StyleId="button"  Text = "Войти" HorizontalOptions="CenterAndExpand" WidthRequest="300" Margin="0,0,0,40"/>
+
+            <StackLayout Orientation="Horizontal">
+                <CheckBox Margin="10,0,0,0"/>
+                <Label StyleId="label" Text="Запомнить меня" FontSize="Medium" HorizontalOptions="Start" Margin="0,3,0,0"/>
+                <Label StyleId="label" Text="Я забыл!" FontSize="Medium" HorizontalOptions="End" Margin="110,3,0,0"/>
+            </StackLayout>
+
+        </StackLayout>
+        
+    </ContentPage>
+
+</CarouselPage>

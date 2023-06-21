@@ -1,0 +1,17 @@
+D:\Android Studio Project\Пркатика\zd6\zd6\bin\Debug\netstandard2.0\zd6.deps.json
+D:\Android Studio Project\Пркатика\zd6\zd6\bin\Debug\netstandard2.0\zd6.dll
+D:\Android Studio Project\Пркатика\zd6\zd6\bin\Debug\netstandard2.0\zd6.pdb
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\zd6.csproj.AssemblyReference.cache
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\zd6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\zd6.AssemblyInfoInputs.cache
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\zd6.AssemblyInfo.cs
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\zd6.csproj.CoreCompileInputs.cache
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\zd6.dll
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\refint\zd6.dll
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\zd6.pdb
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\ref\zd6.dll
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\Welcome.xaml.g.cs
+D:\Android Studio Project\Пркатика\zd6\zd6\obj\Debug\netstandard2.0\myStyles.css.g.cs

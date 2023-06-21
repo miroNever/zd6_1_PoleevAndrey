@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd6.Welcome">
+    <ContentPage.Resources>
+        <StyleSheet Source="myStyles.css"/>
+    </ContentPage.Resources>
+
+    <StackLayout Orientation="Vertical">
+
+        <Label StyleId = "header" Text ="Welcome" FontSize = "Large" HorizontalOptions ="Center" Margin="0,50,0,40"/>
+        <Entry x:Name="login" StyleId="entry" Placeholder = "Введите ваш логин"  HorizontalOptions = "FillAndExpand" Margin="10,0,20,0"/>
+        <Entry x:Name="password" StyleId="entry" Placeholder = "Введите ваш пароль"  HorizontalOptions = "FillAndExpand" Margin="10,0,20,40"/>
+        <Button x:Name="singInButton" StyleId="button"  Text = "Войти" HorizontalOptions="CenterAndExpand" WidthRequest="300" Margin="0,0,0,40" Clicked="singInButton_Clicked"/>
+
+        <StackLayout Orientation="Horizontal">
+            <CheckBox Margin="10,0,0,0"/>
+            <Label StyleId="label" Text="Запомнить меня" FontSize="Small" HorizontalOptions="Start" Margin="0,3,0,0"/>
+            <Label StyleId="label" Text="Я забыл!" FontSize="Small" HorizontalOptions="End" Margin="110,3,0,0"/>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
